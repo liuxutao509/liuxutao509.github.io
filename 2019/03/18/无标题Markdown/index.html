@@ -6,15 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://liuxutao.github.io">
-  <title>Archives: 2019 | 无殇</title>
+  <title>无殇</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="单链表①创建123456789LINK *p = CreateLink();  &amp;#123;    if(NULL == p)      &amp;#123;        printf(&quot;单链表不存在！\n&quot;);        return NULL;    &amp;#125;    memset(p,0,sizeof(LINK);&amp;#125; ②插入12345678void InsertLink(LINK">
+<meta property="og:type" content="article">
 <meta property="og:title" content="无殇">
-<meta property="og:url" content="http://liuxutao.github.io/archives/2019/index.html">
+<meta property="og:url" content="http://liuxutao.github.io/2019/03/18/无标题Markdown/index.html">
 <meta property="og:site_name" content="无殇">
+<meta property="og:description" content="单链表①创建123456789LINK *p = CreateLink();  &amp;#123;    if(NULL == p)      &amp;#123;        printf(&quot;单链表不存在！\n&quot;);        return NULL;    &amp;#125;    memset(p,0,sizeof(LINK);&amp;#125; ②插入12345678void InsertLink(LINK">
 <meta property="og:locale" content="Chinese">
+<meta property="og:image" content="http://image.baidu.com/search/detail?ct=503316480&z=&tn=baiduimagedetail&ipn=d&ie=utf-8&in=24401&cl=2&lm=-1&st=-1&step_word=&rn=1&cs=&ln=1998&fmq=1402900904181_R&ic=0&s=&se=1&sme=0&tab=&width=&height=&face=0&is=&istype=2&ist=&jit=&fr=ala&ala=1&alatpl=others&pos=1&pn=4&word=%E5%9B%BE%E7%89%87%20%E8%90%8C%E5%AE%A0&di=19030&os=3229596229,1721478685&pi=0&objurl=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fc4d437ba680607d1d20a855dba0fa322cebf6c0a1c941-eUGNCk_fw658">
+<meta property="og:updated_time" content="2019-03-18T13:07:48.878Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="无殇">
+<meta name="twitter:description" content="单链表①创建123456789LINK *p = CreateLink();  &amp;#123;    if(NULL == p)      &amp;#123;        printf(&quot;单链表不存在！\n&quot;);        return NULL;    &amp;#125;    memset(p,0,sizeof(LINK);&amp;#125; ②插入12345678void InsertLink(LINK">
+<meta name="twitter:image" content="http://image.baidu.com/search/detail?ct=503316480&z=&tn=baiduimagedetail&ipn=d&ie=utf-8&in=24401&cl=2&lm=-1&st=-1&step_word=&rn=1&cs=&ln=1998&fmq=1402900904181_R&ic=0&s=&se=1&sme=0&tab=&width=&height=&face=0&is=&istype=2&ist=&jit=&fr=ala&ala=1&alatpl=others&pos=1&pn=4&word=%E5%9B%BE%E7%89%87%20%E8%90%8C%E5%AE%A0&di=19030&os=3229596229,1721478685&pi=0&objurl=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fc4d437ba680607d1d20a855dba0fa322cebf6c0a1c941-eUGNCk_fw658">
   
     <link rel="alternative" href="/atom.xml" title="无殇" type="application/atom+xml">
   
@@ -154,70 +160,143 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-无标题Markdown" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="单链表"><a href="#单链表" class="headerlink" title="单链表"></a>单链表</h1><h2 id="①创建"><a href="#①创建" class="headerlink" title="①创建"></a>①创建</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">LINK *p = CreateLink();  </span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="literal">NULL</span> == p)  </span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"单链表不存在！\n"</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">memset</span>(p,<span class="number">0</span>,<span class="keyword">sizeof</span>(LINK);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="②插入"><a href="#②插入" class="headerlink" title="②插入"></a>②插入</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InsertLink</span><span class="params">(LINK *p,<span class="keyword">data_t</span> data)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="literal">NULL</span> == p)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"单链表不存在！\n"</span>);</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://image.baidu.com/search/detail?ct=503316480&amp;z=&amp;tn=baiduimagedetail&amp;ipn=d&amp;ie=utf-8&amp;in=24401&amp;cl=2&amp;lm=-1&amp;st=-1&amp;step_word=&amp;rn=1&amp;cs=&amp;ln=1998&amp;fmq=1402900904181_R&amp;ic=0&amp;s=&amp;se=1&amp;sme=0&amp;tab=&amp;width=&amp;height=&amp;face=0&amp;is=&amp;istype=2&amp;ist=&amp;jit=&amp;fr=ala&amp;ala=1&amp;alatpl=others&amp;pos=1&amp;pn=4&amp;word=%E5%9B%BE%E7%89%87%20%E8%90%8C%E5%AE%A0&amp;di=19030&amp;os=3229596229,1721478685&amp;pi=0&amp;objurl=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fc4d437ba680607d1d20a855dba0fa322cebf6c0a1c941-eUGNCk_fw658" alt="dog"></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/03/18/无标题Markdown/" class="archive-article-date">
-  	<time datetime="2019-03-18T13:10:30.485Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-18</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://liuxutao.github.io/2019/03/18/无标题Markdown/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/03/18/hello-world/" class="archive-article-date">
-  	<time datetime="2019-03-18T11:15:29.998Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-18</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/03/18/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/03/18/hello-world/">Hello World</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -240,8 +319,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
